@@ -49,22 +49,24 @@ I'm German from Mexico, and I'm a Software Developer. I really enjoy learning la
 
 ![PHP Portal](./assets/img/TempusPortal.png)
 ![PHP Scripts](./assets/img/pdfExportPhp.png)
+![PHP Ajax](./assets/img/backendAjax.png)
 
-```
 On this programming language I have created full systems such as this example "Tempus" is a portal for Investors where they aply to a Fund and the Fund Admin can obtain all the information necessary and notice the Investor if is approved or not.Using AJAX for Async data connection , API call to Docusign or Signow for documents sign and Mysql as main Database
 
 Also I have created script on PHP for print PDF, Excel , Word document that obtain the information from the DB. Another type of scripts are the ones that use API or SDK to connect with external system and retrieve data from them. Some API are I have been working are Zillow, Routetify, Quickbooks, Clio, Google, Facebook, among others
-```
 
 ## Portfolio Built With
 
 - [Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - A Complete Guide to Flexbox
 - HTML and CSS
-- CSS effect (hover)
+- HTML and CSS best practices
+- CSS effect (hover), CSS Variables and Media Queries
 - [Font Awesome](https://fontawesome.com/) - Vector icons and social logos
 - [Google Fonts](https://fonts.google.com/specimen/Roboto?preview.text_type=custom) - Roboto font
 - [Favico Generator](https://www.favicon-generator.org/) - Roboto font
 - For More Info please visit the follow links [GitHub Portfolio](https://github.com/izaack89/portfolio) - [Portfolio Site](https://izaack89.github.io/portfolio/)
+
+![PHP Ajax](./assets/img/portfolioIMG.png)
 
 ## Author
 
