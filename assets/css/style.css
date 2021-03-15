@@ -311,7 +311,12 @@ main {
 @media screen and (max-width: 768px) {
   /* I redecue the font size of the menu so it can fit on this devices */
   header navbar {
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  /* I redecue the margin to the left of the menu so it can fit on this devices */
+  header navbar ul li {
+    margin-left: 5px;
   }
   /* The secondary image on smalled tables will have 100% so each project will be visible like the main project */
   .secondary_img {
@@ -342,7 +347,7 @@ main {
   }
   /* I change the width of the text description so it can fit on smaller devices  */
   .textContent {
-    width: 550px;
+    width: 350px;
     padding-top: 30px;
   }
   /* I change the margin I add a padding on the botton and I change the line height in order to fit on smaller devices  */
@@ -351,5 +356,11 @@ main {
     padding-left: var(--paddingLeftBody);
     padding-bottom: 30px;
     line-height: 10px;
+  }
+
+  /* This code is to reduce the size of "Hi, Im German Ramirez" and I center the text */
+  .textContent h2 {
+    font-size: 2rem;
+    text-align: center;
   }
 }
