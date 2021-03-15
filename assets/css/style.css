@@ -363,10 +363,17 @@ main {
     font-size: 2rem;
     text-align: center;
   }
+
+  /* This code is to reduce the size of the font awesome icons */
   .Icon {
     font-size: 9px;
   }
+  /* This code is to reduce the size of the text below of the QR image*/
   .imgQR figcaption {
     font-size: 15px;
+  }
+  /*This is to set the width to 100% on small devices */
+  .contentAboutMe {
+    width: 100%;
   }
 }
