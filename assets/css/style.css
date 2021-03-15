@@ -364,6 +364,9 @@ main {
     text-align: center;
   }
   .Icon {
-    font-size: 1.5rem;
+    font-size: 9px;
+  }
+  .imgQR figcaption {
+    font-size: 15px;
   }
 }
