@@ -363,4 +363,7 @@ main {
     font-size: 2rem;
     text-align: center;
   }
+  .Icon {
+    font-size: 1.5rem;
+  }
 }
