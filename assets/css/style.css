@@ -360,7 +360,7 @@ main {
 
   /* This code is to reduce the size of "Hi, Im German Ramirez" and I center the text */
   .textContent h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 
