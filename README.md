@@ -66,7 +66,7 @@ Also I have created script on PHP for print PDF, Excel , Word document that obta
 
 - **PHP**
 
-![DB Schema](./assets/img/dbSchema.png)
+![DB Schema](./assets/img/dbSchemas.png)
 
 Here I can show one of many schemas that I have creted on the past , with this I want to show that I know how to create relations between tables and also I can built for robust systems such as this example that represent a system for audits
 
