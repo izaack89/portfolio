@@ -101,4 +101,4 @@ Here I can show one of many schemas that I have creted on the past , with this I
 ## Author
 
 - **German Ramirez** - [GitHub](https://github.com/izaack89/)
-- **German Ramirez CV** - [CV](./pdf/CV-GermanRamirezCastañon.pdf)
+- **German Ramirez CV** - [CV](https://izaack89.github.io/portfolio/assets/pdf/CV-GermanRamirezCasta%C3%B1on.pdf)
