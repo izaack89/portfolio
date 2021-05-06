@@ -65,37 +65,49 @@
                 <div class="title">Work</div>
                 <div class="content gallery">
                     <figure class="width100 padding-gallery">
-                        <a href="https://www.mlkcompanies.com/prop_analysis/" target="_blank">
-                            <img src="assets/img/propAnalysis.png"
+                        <a href="#"  onclick="modalFunction(event,1)"  data-bs-toggle="modal" data-bs-target="#projectModal">
+                            <img src="assets/img/PropAnalysis.gif"
                                 alt="Full site craeted with PHP, MYSQL and Bootstrap this site is current used for Real State staff and the site is protected by user login" />
                             <figcaption>Property Analysis</figcaption>
                         </a>
                     </figure>
                     <figure class="secondary_img padding-gallery">
-                        <a href="http://rcconsultingmx.com/gitProjects/backend_ajax/">
-                            <img src="assets/img/backendAjax.png"
+                        <a href="#" onclick="modalFunction(event,2)" data-bs-toggle="modal" data-bs-target="#projectModal">
+                            <img src="assets/img/backendAjax.gif"
                                 alt="Javascript Project using Ajax to read json file and push results so the user can see it" />
                             <figcaption>Backend Ajax Project</figcaption>
                         </a>
                     </figure>
                     <figure class="secondary_img padding-gallery">
-                        <a href="https://izaack89.github.io/Calculadora/ProyectoFinalGermanRamirez-Javascript/">
+                        <a href="#" onclick="modalFunction(event,3)" data-bs-toggle="modal" data-bs-target="#projectModal">
                             <img src="assets/img/calculator.png" alt="Javascript Calculator" />
                             <figcaption>Calculator</figcaption>
                         </a>
                     </figure>
                     <figure class="secondary_img padding-gallery">
-                        <a href="http://rcconsultingmx.com/upwork/pdf_example/">
-                            <img src="assets/img/pdfExportPhp.png"
-                                alt="PHP Project project that export a PDF from data of a DB" />
-                            <figcaption>PDF Export PHP</figcaption>
+                        <a href="#" onclick="modalFunction(event,4)"  data-bs-toggle="modal" data-bs-target="#projectModal">
+                            <img src="assets/img/sportAlmanac.gif"
+                                alt="Sport Almanac Project of the Bootcamp" />
+                            <figcaption>Sport Almanac</figcaption>
                         </a>
 
                     </figure>
                     <figure class="secondary_img padding-gallery">
-                        <a href="https://izaack89.github.io/horiseon-project/">
-                            <img src="assets/img/horiseon.png" alt="Search Engine Optimization Project" />
-                            <figcaption>Horiseon Project</figcaption>
+                        <a href="#" onclick="modalFunction(event,5)"   data-bs-toggle="modal" data-bs-target="#projectModal">
+                            <img src="assets/img/codeBase.gif" alt="Code Base Project" />
+                            <figcaption>Code Base</figcaption>
+                        </a>
+                    </figure>
+                    <figure class="secondary_img padding-gallery">
+                        <a href="#" onclick="modalFunction(event,6)" data-bs-toggle="modal" data-bs-target="#projectModal">
+                            <img src="assets/img/dayPlanner.gif" alt="Day Planner Project" />
+                            <figcaption>Day Planner</figcaption>
+                        </a>
+                    </figure>
+                    <figure class="secondary_img padding-gallery">
+                        <a href="#" onclick="modalFunction(event,7)" data-bs-toggle="modal" data-bs-target="#projectModal">
+                            <img src="assets/img/dashboardWeather.gif" alt="Weather Dashboard Project" />
+                            <figcaption>Weather Dashboard</figcaption>
                         </a>
                     </figure>
                 </div>
@@ -145,6 +157,7 @@
                         • Servers (Linux, Windows, AWS)
                         • Version Control (CVS,SVN,GIT, GITLAB,bitbucket)
                     </pre>
+                    <p style="padding-left: 15px;">More Info , you can download my <a href="./assets/pdf/CV-GermanRamirezCastañon.pdf" target="_blank">Curriculum Vitae</a> </p>
                     <figure class="imgResume width100">
                         <img src="assets/img/avatarMe.svg" class="img50width" alt="German Ramirez Avatar" />
                     </figure>
@@ -157,6 +170,40 @@
             &copy; 2021 German Ramirez.
         </p>
     </footer>
+
+    <div class="modal" tabindex="-1" id="projectModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="titleModal"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="bodyModal">                    
+                    <p id="bodyModalDescription"></p>
+                    <br>
+                    <img id="imgModal" src="" alt="" style="width: 100%;" />
+                    <br>
+                    <div id="externalLinksDiv" class="hidenElement">
+                        <br><br>
+                        <a id="externalLink" class="linkClassNoBorder"><i class="fa fa-link">Link</i></a>
+                    </div>
+                    <div id="gitHubLinksDiv" class="hidenElement">
+                        <br><br>
+                        <a id="githubRepo" class="linkClassNoBorder" target="_blank"></a><br><br>
+                        <a id="githubPage" class="linkClassNoBorder" target="_blank"></a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
