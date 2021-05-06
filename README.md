@@ -1,6 +1,6 @@
 # Hi, I'm German Ramirez
 
-I'm German from Mexico, and I'm a Software Developer. I really enjoy learning languages and frameworks like Laravel, React and VueJS, as well as work in enviroment like Linux and Windows. I also enjoy working with Databases like Mysql, Postgress, MongoDB, Oracle and SQL Server.
+I'm German from Mexico, and I'm a Software Developer. I really enjoy learning languages and frameworks like Laravel, React and VueJS, as well as work in environment like Linux and Windows. I also enjoy working with Databases like Mysql, Postgress, MongoDB, Oracle and SQL Server.
 
 ## Skills and Experience
 
@@ -49,7 +49,7 @@ I'm German from Mexico, and I'm a Software Developer. I really enjoy learning la
 
   - #### PropAnalysis System
 
-![PHP Portal](./assets/img/propAnalysis.png)
+![PHP Portal](./assets/img/PropAnalysis.gif)
 
 - #### Tempus Portal System
 
@@ -58,17 +58,32 @@ I'm German from Mexico, and I'm a Software Developer. I really enjoy learning la
 On this programming language I have created full systems such as this example that is a "Property Analysis System" where the agent can enter an do an analysis of a property in order to have an idea about REHAB , OFFER , MAX OFFER , RENT/SALES COMPS. On the system "Tempus" is a portal for Investors where they aply to a Fund and the Fund Admin can obtain all the information necessary and notice the Investor if is approved or not.Using AJAX for Async data connection , API call to Docusign or Signow for documents sign and Mysql as main Database. Both Systems are protected with login system
 
 - #### Ajax Backend Script
-  ![PHP Ajax](./assets/img/backendAjax.png)
+  ![PHP Ajax](./assets/img/backendAjax.gif)
 - #### PDF Export FPDF export
   ![PHP Scripts](./assets/img/pdfExportPhp.png)
 
 Also I have created script on PHP for print PDF, Excel , Word document that obtain the information from the DB. Another type of scripts are the ones that use API or SDK to connect with external system and retrieve data from them. Some API are I have been working are Zillow, Routetify, Quickbooks, Clio, Google, Facebook, among others
 
-- **PHP**
+- **MYSQl**
 
 ![DB Schema](./assets/img/dbSchemas.png)
 
 Here I can show one of many schemas that I have creted on the past , with this I want to show that I know how to create relations between tables and also I can built for robust systems such as this example that represent a system for audits
+
+## Repositorie Examples
+
+[Sport Almanac Repo](https://github.com/adina-hc/sports-almanac) |
+[Sport Almanac Live](https://adina-hc.github.io/sports-almanac/)  
+![Sport Almanac](./assets/img/sportAlmanac.gif)
+[Code BaseRepo](https://github.com/izaack89/code-base) |
+[Code Base Live](https://izaack89.github.io/code-base/)
+![Code Base](./assets/img/codeBase.gif)
+[Day Planner Repo](https://github.com/izaack89/day-planner) |
+[Day Planner Live](https://izaack89.github.io/day-planner/)
+![Day Planner](./assets/img/dayPlanner.gif)
+[Weather Dashboard Repo](https://github.com/izaack89/weather-dashboard) |
+[Weather Dashboard Live](https://izaack89.github.io/weather-dashboard/)
+![Weather Dashboard](./assets/img/dashboardWeather.gif)
 
 ## Portfolio Built With
 
@@ -86,3 +101,4 @@ Here I can show one of many schemas that I have creted on the past , with this I
 ## Author
 
 - **German Ramirez** - [GitHub](https://github.com/izaack89/)
+- **German Ramirez CV** - [CV](./pdf/CV-GermanRamirezCastañon.pdf)
