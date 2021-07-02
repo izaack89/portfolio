@@ -19,6 +19,9 @@ I'm German from Mexico, and I'm a Software Developer. I really enjoy learning la
   - NODEJS
   - VUEJS
   - REACT
+  - SEQUELIZE
+  - HANDLEBARS
+  - NODE
 - WEB DESIGN
   - HTML5
   - CSS3
@@ -84,6 +87,12 @@ Here I can show one of many schemas that I have creted on the past , with this I
 [Weather Dashboard Repo](https://github.com/izaack89/weather-dashboard) |
 [Weather Dashboard Live](https://izaack89.github.io/weather-dashboard/)
 ![Weather Dashboard](./assets/img/dashboardWeather.gif)
+[School System Repo](https://github.com/izaack89/school-system) |
+[School System Live](https://infinite-chamber-84516.herokuapp.com/)
+![School System](./assets/img/schoolSystem.gif)
+[Tech Blog Repo](https://github.com/izaack89/tech-blog) |
+[Tech Blog Live](https://floating-garden-59968.herokuapp.com/login)
+![Tech Blog](./assets/img/systemView.gif)
 
 ## Portfolio Built With
 
@@ -102,3 +111,6 @@ Here I can show one of many schemas that I have creted on the past , with this I
 
 - **German Ramirez** - [GitHub](https://github.com/izaack89/)
 - **German Ramirez CV** - [CV](https://izaack89.github.io/portfolio/assets/pdf/CV-GermanRamirezCasta%C3%B1on.pdf)
+
+
+![GitHub license](https://img.shields.io/badge/Licenses-MIT-blue.svg)
