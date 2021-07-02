@@ -87,5 +87,27 @@ var modalFunction = function (event, project, isExternal) {
             imgModal.src = "assets/img/dashboardWeather.gif";
             imgModal.setAttribute('alt', 'Weather Dashboard');
             break;
+        case 8:
+            titleModal.textContent = 'School System';
+            githubRepo.textContent = "School System Repo";
+            githubPage.textContent = "School System Live";
+            githubRepo.setAttribute('href',"https://github.com/izaack89/school-system");
+            githubPage.setAttribute('href', "https://infinite-chamber-84516.herokuapp.com/");
+            bodyModalDescription.textContent = 'This application was developed for students and teachers that need an app for their school and need to control their assignments, time and take overall control of their tasks.';
+            gitHubLinksDiv.setAttribute('class', '');
+            imgModal.src = "assets/img/schoolSystem.gif";
+            imgModal.setAttribute('alt', 'Weather Dashboard');
+            break;
+        case 9:
+            titleModal.textContent = 'Tech Blog';
+            githubRepo.textContent = "Tech Blog Repo";
+            githubPage.textContent = "Tech Blog Live";
+            githubRepo.setAttribute('href',"https://github.com/izaack89/tech-blog");
+            githubPage.setAttribute('href', "https://floating-garden-59968.herokuapp.com/login");
+            bodyModalDescription.textContent = 'This project will help to create a blog for tech. So you can invite your friends to signup and to share their knowledge about subject of tech';
+            gitHubLinksDiv.setAttribute('class', '');
+            imgModal.src = "assets/img/systemView.gif";
+            imgModal.setAttribute('alt', 'Tech Blog');
+            break;
     }
 }
